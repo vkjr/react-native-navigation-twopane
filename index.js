@@ -42,7 +42,7 @@ class TwoPaneNavigator extends React.Component {
         }
 
         return (
-            <View style={{flex: 1, flexDirection: 'row'}}>
+            <View>
                 <View style={{width: 300, borderRightWidth: 1, marginTop: 50}}>
                     <this.LeftPaneComponent navigation={navigation}/>
                 </View>
